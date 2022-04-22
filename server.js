@@ -1,11 +1,11 @@
 // Require http module
-const http = require('http')
+const http = require("http")
 // Require fs module
-const http = require('fs')
+const http = require("fs")
 
 // Require minimist module (make sure you install this one via npm).
 // Use minimist to process one argument `--port=` on the command line after `node server.js`.
-const args = require('minimist)(proces.argv.slice(2)) 
+const args = require("minimist")(proces.argv.slice(2)) 
 // Define allowed argument name 'port'.
 args["port"]
 // Define a const `port` using the argument from the command line. 
