@@ -15,12 +15,11 @@ const port = args.port || process.env.PORT || 3000
 // Use the documentation for the Node.js `fs` module. 
 // The function must read a file located at `./www/index.html` and do some stuff with it.
 // The stuff that should be inside this function is all below.
-fs.readFile('./www/index.html', 'utf8', (err, data) => {
+fs.readFile("./www/index.html", 'utf8', (err,data) => {
     if (err) {
         console.error(err)
         return
     }
-})
 // If there is an error, put it on the console error, return, and exit with error code 1. 
 // Do not be nice about exiting.
 
